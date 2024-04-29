@@ -35,8 +35,8 @@ def fractionalKnapsack(W, arr):
 
 # Driver Code
 if __name__ == "__main__":
-	W = 12
-	arr = [Item(40, 2), Item(65,5), Item(72, 6), Item(60,4)]
+	W = 6
+	arr = [Item(5000, 4), Item(3000,2), Item(4000, 3), Item(1500,1)]
 
 	# Function call
 	max_val = fractionalKnapsack(W, arr)
